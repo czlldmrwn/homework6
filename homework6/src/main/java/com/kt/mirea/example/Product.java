@@ -19,7 +19,7 @@ public class Product implements Serializable {
     private ArrayList<String> ingredients;
     private double price;
     
-    //private static final long serialVersionUID = 3536693998646060163L;
+    private static final long serialVersionUID = 3536693998646060163L;
 
     public Product(long code, String name, String type, boolean isDiscount, ArrayList<String> ingredients, double price) {
         this.code = code;
